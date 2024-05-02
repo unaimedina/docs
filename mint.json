@@ -1,91 +1,65 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Voltic Store Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/main_logo.png",
+    "light": "/logo/main_logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/main_logo.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#4d50ff",
+    "light": "#4d50ff",
+    "dark": "#4d50ff",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#4d50ff",
+      "to": "#4d50ff"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Soporte",
+      "url": "mailto:help@voltic.dev"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Store",
+    "url": "https://store.voltic.dev"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Trello (Planka)",
+      "icon": "trello",
+      "url": "https://tasks.voltic.dev"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "docs/introduction",
+        "docs/content"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Visuals",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "visuals/mock-ups",
+        "visuals/poc"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Sprints",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "sprints/sprint-1",
+        "sprints/sprint-2",
+        "sprints/sprint-final"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/volticstudioscm",
+    "github": "https://github.com/voltic-studios",
+    "twitter": "https://twitter.com/overworldcm"
   }
 }
